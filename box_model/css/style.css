@@ -15,10 +15,10 @@
     margin: 16px 0px;
 }
 
-#quote_content {
-    margin-left: 48px;
+#quote {
+    padding-left: 36px;
 }
 
 #quote_citation {
-    margin-left: 72px;
+    padding-left: 26px;
 }

@@ -1,0 +1,40 @@
+.card {
+    margin: 24px;
+    border: 3px solid blue;
+    padding: 16px;
+    /* first is offset x then offset y, then blur-radius, then spread-radius, then color */
+    box-shadow: inset 4px 4px 8px 2px grey;
+}
+
+#div_1 {
+    font-family: Verdana, sans-serif;
+}
+
+#div_2 {
+    font-family: monospace;
+    font-weight: bold;
+}
+
+#div_3 {
+    font-family: cursive;
+    font-size: 24px; /* em, % */
+}
+
+#div_4 {
+    font-family: fantasy;
+    text-decoration: line-through;
+}
+
+#puppy {
+    width: 100px;
+    float: right;
+    margin: 12px;
+}
+
+#clear {
+    clear: both;
+}
+
+.card:hover {
+    background-color: lightblue;
+}

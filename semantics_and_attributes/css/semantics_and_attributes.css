@@ -37,6 +37,11 @@ main {
     padding: 20px;
 }
 
+.card img {
+    width: 100px;
+    padding: 10;
+}
+
 #image_container {
     float: left;
     padding-right: 24px;

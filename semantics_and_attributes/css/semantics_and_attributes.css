@@ -45,6 +45,7 @@ main {
 #image_container {
     float: left;
     padding-right: 24px;
+    width: 200px;
 }
 footer {
     background-color: darkblue;

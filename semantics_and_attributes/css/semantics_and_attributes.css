@@ -1,0 +1,31 @@
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+header {
+    background-color: salmon;
+    padding: 36px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 48px;
+    color: white;
+}
+
+nav a {
+    color: white;
+}
+
+.card {
+    border: 3px solid grey;
+    margin: 40px;
+    padding: 20px;
+}
+
+footer {
+    background-color: salmon;
+    padding: 24px;
+}

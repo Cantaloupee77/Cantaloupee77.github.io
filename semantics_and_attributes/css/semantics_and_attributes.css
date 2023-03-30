@@ -37,13 +37,12 @@ main {
     padding: 20px;
 }
 
+#image_container {
+    float: left;
+    padding-right: 24px;
+}
 footer {
     background-color: darkblue;
     padding: 24px;
     color: aliceblue;
-}
-
-#image_container {
-    float: left;
-    padding-right: 24px;
 }

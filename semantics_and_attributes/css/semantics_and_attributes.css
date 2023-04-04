@@ -47,8 +47,13 @@ main {
     padding-right: 24px;
     width: 200px;
 }
+
+#clear {
+    clear: both;
+}
 footer {
     background-color: darkblue;
     padding: 24px;
     color: aliceblue;
+    text-align: center;
 }

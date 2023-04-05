@@ -1,6 +1,44 @@
 body {
     margin: 0px;
 }
+#slideshow {
+    text-align: center;
+    overflow: hidden;
+    height: 510px;
+    width: 728px;
+    margin: 0 auto;
+}
+
+.slide-wraper {
+    width: 2912px;
+    -webkit-animation: slide 18s ease infinite;
+}
+
+.slide {
+    float: left;
+    height: 510px;
+    width: 728px;
+}
+
+.slide:nth-child(1) {
+    background: #d93b65;
+}
+
+.slide:nth-child(2) {
+    background: #037e8c;
+}
+
+.slide:nth-child(3) {
+    background: #50ac76;
+}
+
+.slide:nth-child(4) {
+    background: #b06598;
+}
+
+.slide:nth-child(5) {
+    background: #638c03;
+}
 
 nav {
     background-color: rgb(124, 164, 209);

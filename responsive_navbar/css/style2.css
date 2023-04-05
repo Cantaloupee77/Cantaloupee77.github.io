@@ -1,13 +1,12 @@
 body {
     margin: 0px;
-    padding: 5%;
 }
 #slideshow {
     text-align: center;
     overflow: hidden;
     height: 510px;
     width: 728px;
-    margin: 0 auto;
+    margin: 48px auto;
 }
 
 .slide-wraper {
@@ -36,11 +35,6 @@ body {
 .slide:nth-child(4) {
     background: #b06598;
 }
-
-.slide:nth-child(5) {
-    background: #638c03;
-}
-
 
 .slide-number {
     color: 000;
@@ -114,4 +108,8 @@ li a {
     #home {
         margin-right: 0px;
     }
+}
+
+img {
+    width: 45%;
 }

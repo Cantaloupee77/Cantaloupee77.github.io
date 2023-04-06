@@ -117,10 +117,16 @@ img {
 .gallery {
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 .audiobook-images img {
-    width: 20%;
+    width: 30%;
     border-radius: 40px;
+}
+
+.audiobook-images {
+    display: block;
+    justify-content: center;
 }
 

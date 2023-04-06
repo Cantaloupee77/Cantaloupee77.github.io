@@ -25,15 +25,15 @@ body {
 }
 
 .slide:nth-child(2) {
-    background: #037e8c;
+    background: #d93b65;
 }
 
 .slide:nth-child(3) {
-    background: #50ac76;
+    background: #d93b65;
 }
 
 .slide:nth-child(4) {
-    background: #b06598;
+    background: #d93b65;
 }
 
 .slide-number {

@@ -33,8 +33,13 @@ main {
     flex-wrap: wrap;
 }
 
-.gallery img {
+.image-container2 img {
+    width: 100%;
+    border-radius: 40px;
+}
+
+.gallery .image-container2 {
     box-sizing: border-box;
-    width: calc (25% - 2*24px);
-    margin: 24px;
+    width: calc(25% - 2*24px);
+    margin: 24px; 
 }

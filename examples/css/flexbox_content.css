@@ -14,8 +14,18 @@ main {
     border-radius: 40px 0px 40px 0px ;
 }
 
+.side_by_side .image-container {
+    flex: 2;
+}
+
+.image-container img{
+    width: 100%;
+    border-radius: 40px 0px 40px 0px;
+}
+
 .side_by_side p {
     flex: 1;
+    margin: 20px;
 }
 
 .gallery {

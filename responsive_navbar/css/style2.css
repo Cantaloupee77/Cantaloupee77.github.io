@@ -1,6 +1,7 @@
 body {
     margin: 0px;
 }
+
 #slideshow {
     text-align: center;
     overflow: hidden;
@@ -54,6 +55,8 @@ body {
 
 nav {
     background-color: rgb(124, 164, 209);
+    position: sticky;
+    top: 0px;
 }
 
 ul {
@@ -110,25 +113,23 @@ li a {
     }
 }
 
+h1 {
+    text-align: center;
+}
+
 img {
     width: 45%;
 }
 
-.gallery {
-    display: flex;
-    flex-wrap: wrap;
-    
-}
-
 .audiobook-images img {
-    width: 30%;
+    width: calc(30% - 24px);
     border-radius: 40px;
+    margin: 12px;
+    box-sizing: border-box;
 }
 
 .audiobook-images {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-

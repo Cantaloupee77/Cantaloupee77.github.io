@@ -113,3 +113,14 @@ li a {
 img {
     width: 45%;
 }
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.audiobook-images img {
+    width: 20%;
+    border-radius: 40px;
+}
+

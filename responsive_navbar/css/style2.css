@@ -22,19 +22,19 @@ body {
 }
 
 .slide:nth-child(1) {
-    background: #d93b65;
+    background: rgb(124, 164, 209);
 }
 
 .slide:nth-child(2) {
-    background: #d93b65;
+    background: rgb(124, 164, 209);
 }
 
 .slide:nth-child(3) {
-    background: #d93b65;
+    background: rgb(124, 164, 209);
 }
 
 .slide:nth-child(4) {
-    background: #d93b65;
+    background: rgb(124, 164, 209);
 }
 
 .slide-number {
@@ -132,4 +132,21 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+p {
+    text-align: center;
+}
+
+.home-books {
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+}
+
+.home-books img {
+    width: calc(20% - 24px);
+    border-radius: 5px;
+    margin: 12px;
+    box-sizing: border-box;
 }

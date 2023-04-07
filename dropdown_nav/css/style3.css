@@ -45,13 +45,12 @@ li a {
     transition: 
     opacity 0.5s,
     visibility 0.5s;
-    top: 100%;
 }
 
 .dropdown_container:hover .dropdown_menu {
     opacity: 1;
-    visibility: visible;
-    top: 100%;
+    visibility: visible,
+    top 100%;
 }
 
 @media screen and (max-width: 768px) {

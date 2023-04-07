@@ -1,0 +1,30 @@
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+}
+
+tr {
+    border-bottom: 1px solid gray;
+}
+
+thead tr {
+    background-color: rgb(23, 151, 128);
+}
+
+tbody tr:nth-child(even) {
+    background-color: lightgray;
+    color: rgb(23, 151, 128);
+}
+
+thead tr {
+    color: white;
+    font-family: sans-serif;
+}
+
+
+
+
+

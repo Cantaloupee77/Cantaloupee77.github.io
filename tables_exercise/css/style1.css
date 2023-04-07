@@ -1,5 +1,6 @@
 table {
     border-collapse: collapse;
+    font-family: sans-serif;
 }
 
 th, td {
@@ -8,6 +9,7 @@ th, td {
 
 tr {
     border-bottom: 1px solid gray;
+    
 }
 
 thead tr {
@@ -21,8 +23,8 @@ tbody tr:nth-child(even) {
 
 thead tr {
     color: white;
-    font-family: sans-serif;
 }
+
 
 
 

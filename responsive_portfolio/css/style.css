@@ -173,7 +173,7 @@ footer ul {
 }
 
 #hero h1 {
-    color: red;
+    color: rgb(192, 0, 0);
     text-shadow: 2px 2px 3px white;
 }
 
@@ -185,8 +185,8 @@ footer ul {
 #hero a, 
 .card a {
     background-color: black;
-    color: red;
-    border: 2-x solid red;
+    color: rgb(192, 0, 0);
+    border: 2-x solid rgb(192, 0, 0);
     border-radius: 24px;
     display: inline-block;
     padding: 8px 16px;
@@ -208,8 +208,8 @@ footer ul {
 }
 
 .card {
-    border: 2px solid red;
-    color: red;
+    border: 2px solid rgb(192, 0, 0);
+    color: rgb(192, 0, 0);
     margin: 48px 24px 24px;
     padding: 12px 12px 24px;
     text-align: center;

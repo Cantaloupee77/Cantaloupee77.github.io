@@ -1,0 +1,72 @@
+body {
+    margin: 0px;
+}
+
+p {
+    font-size: 32px;
+    margin: 24px;
+    height: 1000px;
+}
+
+#hero_1 {
+    background-image: URL("../images/iron-man.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 50%;
+    height: 200PX;
+    position: relative;
+}
+
+#hero_1 h1 {
+    position: absolute;
+    left: 100px;
+    font-family: cursive;
+    bottom: 0px;
+    color: rgb(255, 0, 0);
+}
+
+#hero_2 {
+    background-image: url("../images/spideman.webp");
+    background-size: cover;
+    background-position: center center;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 3px blue;
+}
+
+#hero_2 h2 {
+    font-family: cursive;
+    font-size: 60px;
+    color: white;
+}
+
+#hero_2 h3 {
+    font-family: cursive;
+    font-size: 48px;
+    color: white;
+}
+
+#hero_3 {
+    background-image: url("../images/batman-spin-off-header.webp");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    color: yellow;
+}
+
+#hero_3 h2 {
+    font-family: cursive;
+    font-size: 60px;
+    padding-top: 60px;
+}
+
+#hero_3 h3 {
+    font-family: cursive;
+    font-size: 48px;
+    padding-bottom: 60px;
+}

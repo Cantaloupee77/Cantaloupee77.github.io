@@ -169,14 +169,16 @@ footer ul {
     justify-content: center;
     align-items: center;
     text-align: center; 
-    background-image: url("../images/abstractBackground.jpg");
+    background-image: url("../images/IMG_0108.JPG");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    color: white;
+    color: red;
+    text-shadow: 2px 2px 3px white;
 }
+
 #hero a {
-    background-color: white;
+    background-color: black;
     color: red;
     border: 2-x solid red;
     border-radius: 24px;

@@ -93,8 +93,8 @@ li a {
     visibility: hidden;
     transition: 
     opacity 0.5s,
-    visibility 0.5s;
-    top: 100%;
+    visibility 0.5s,
+    top 100%;
 }
 
 .dropdown_container:hover .dropdown_menu {

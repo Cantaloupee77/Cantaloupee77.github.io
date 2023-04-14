@@ -1,6 +1,8 @@
 /* Google Font API imports - found at https://fonts.google.com/ */
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Secular+One&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@100&display=swap');
+
 /*****************************************************************************
   Heading, Link, and Misc. Styles
 *****************************************************************************/
@@ -13,16 +15,20 @@ body {
     color: #e1a177;
 }
 
+nav, footer {
+    background-color: black;
+}
+
 h1,
 h2,
 h3,
 a {
-    font-family: 'Secular One', sans-serif;
+    font-family: Lobster, cursive;
 }
 
 h4,
 p {
-    font-family: 'Assistant', sans-serif;
+    font-family: Montserrat, sans-serif;
 }
 
 h1 {
@@ -45,6 +51,10 @@ footer a {
     color: #e1a177;
 }
 
+footer {
+    margin: 20px 0px;
+}
+
 nav a:hover,
 footer a:hover {
     text-decoration: underline;
@@ -62,8 +72,8 @@ footer a:hover {
         "hero_area hero_area hero_area"
         ". three_cards_area ."
         ". carousel_area ."
-        ". gallery_area ."
         ". two_cards_area ."
+        ". gallery_area ."
         "footer_area footer_area footer_area";
 }
 
@@ -103,7 +113,7 @@ footer {
 nav {
     align-items: center;
     display: flex;
-    margin: 0 24px;
+    margin: 0 ;
 }
 
 footer {
@@ -133,6 +143,10 @@ nav .social_media {
 
 .social_media i {
     font-size: 20px;
+}
+
+nav img {
+    width: 80px;
 }
 
 nav,
@@ -166,7 +180,7 @@ footer ul {
     justify-content: center;
     align-items: center;
     text-align: center; 
-    background-image: url("../images/IMG_0108.JPG");
+    background-image: url("../images/farming.jpg");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -224,6 +238,11 @@ footer ul {
     margin-top: 0px;
 }
 
+
+#carousel_container h2 {
+    text-align: center;
+    color: #e1a177;
+}
 
 
 /****************************************************************************
@@ -298,8 +317,8 @@ footer ul {
             "hero_area"
             "three_cards_area"
             "carousel_area"
-            "gallery_area"
             "two_cards_area"
+            "gallery_area"
             "footer_area";
     }
 
@@ -309,6 +328,10 @@ footer ul {
 
     #three_cards, #two_cards {
         flex-direction: column;
+    }
+
+    .card img {
+        width: 100%;
     }
 
     .card {

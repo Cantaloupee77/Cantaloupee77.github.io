@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+form {
+    background-color: pink;
+}
+form div {
+    margin: 12px;
+}

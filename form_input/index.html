@@ -12,16 +12,20 @@
             <fieldset>
                 <h2>Make Your Dnd Character!</h2>
                 <div>
-                    <label for="first_name_id">Player Name:</label>
-                    <input type="text" id="first_name_id" name="first_name">
+                    <label for="player_name_id">Player Name:</label>
+                    <input type="text" id="player_name_id" name="player_name">
                 </div>
                 <div>
-                    <label for="middle_initial_id">Character Name:</label>
-                    <input type="text" id="middle_initial_id" name="middle_initial">
+                    <label for="character_name_id">Character Name:</label>
+                    <input type="text" id="character_name_id" name="character_name">
                 </div>
                 <div>
-                    <label for="last_name_id">Character Dnd Race:</label>
-                    <input type="text" id="last_name_id" name="last_name">
+                    <label for="character_dnd_race_id">Character Dnd Race:</label>
+                    <input type="text" id="character_dnd_race_id" name="character_dnd_race">
+                </div>
+                <div>
+                    <label for="character_level_id">Character Level:</label>
+                    <input type="text" id="character_level_id" name="character_level">
                 </div>
                 <p>Choose a dnd class</p>
                 <div>
@@ -31,13 +35,50 @@
                 <div>
                     <input type="radio" id="bard_radio" name="program" value="bard">
                     <label for="bard_radio">Bard</label>
+                </div>
                 <div>
                     <input type="radio" id="cleric_radio" name="program" value="cleric">
                     <label for="cleric_radio">Cleric</label>
                 </div>
                 <div>
+                    <input type="radio" id="druid_radio" name="program" value="druid">
+                    <label for="druid_radio">Druid</label>
+                </div>
+                <div>
+                    <input type="radio" id="fighter_radio" name="program" value="fighter">
+                    <label for="fighter_radio">Fighter</label>
+                </div>
+                <div>
+                    <input type="radio" id="monk_radio" name="program" value="monk">
+                    <label for="monk_radio">Monk</label>
+                </div>
+                <div>
+                    <input type="radio" id="paladin_radio" name="program" value="paladin">
+                    <label for="paladin_radio">Paladin</label>
+                </div>
+                <div>
+                    <input type="radio" id="ranger_radio" name="program" value="ranger">
+                    <label for="ranger_radio">Ranger</label>
+                </div>
+                <div>
+                    <input type="radio" id="rogue_radio" name="program" value="rogue">
+                    <label for="rogue_radio">Rogue</label>
+                </div>
+                <div>
+                    <input type="radio" id="sorcerer_radio" name="program" value="sorcerer">
+                    <label for="sorcerer_radio">Sorcerer</label>
+                </div>
+                <div>
+                    <input type="radio" id="warlock_radio" name="program" value="warlock">
+                    <label for="warlock_radio">Warlock</label>
+                </div>
+                <div>
+                    <input type="radio" id="wizard_radio" name="program" value="wizard">
+                    <label for="wizard_radio">Wizard</label>
+                </div>
+                <div>
                     <label for="food_groupd_id">
-                        Choose a background
+                        Choose A Background
                     </label>
                     <select id="character_background_id" name="character_background">
                         <option value="spy">Spy</option>
@@ -66,7 +107,7 @@
                         placeholder="This is the default for this area."></textarea>
                 </div>
                 <div>
-                    <input type="submit" value="Submit Everything">
+                    <input type="submit" id="submit-button" value="Submit Everything">
                 </div>
             </fieldset>
         </form>

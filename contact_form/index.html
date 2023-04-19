@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Contact Form</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+        <section id="grid_container">
+            <header>
+                <h1>
+                    Contact us
+                </h1>
+                <h5>
+                    Got a question? We'd love to hear from you. Send us a message and we'll respond as soon as possible.
+                </h5>
+            </header>
+            <main>
+                <form>
+                    <fieldset>
+                        <div>
+                            <label for="help_id">
+                                What can we help you with?
+                            </label>
+                        </div>
+                        <div>
+                            <select id="helping_id" name="helping">
+                                <option value="none" disabled selected>Select what we can help you with</option>
+                                <option value="new_order">Placing New Order</option>
+                                <option value="cancel">Cancel My Order</option>
+                                <option value="never_arived">Order Never Arived</option>
+                            </select>
+                        </div>
+                        <div class="long">
+                            <label for="person_name_id">Name</label>
+                            <input type="text" id="person_name_id" name="person_name">
+                        </div>
+                        <div class="long">
+                            <label for="email_id">Email</label>
+                            <input type="email" id="email_id" name="email">
+                        </div>
+                        <div>
+                            <label for="message_id">Message</label>
+                            <textarea 
+                                id="class_features_id" 
+                                name="class_features">
+                            </textarea>
+                        </div>
+                    </fieldset>
+                    <div>
+                        <input type="submit" id="submit" value="Send">
+                    </div>
+                </form>
+            </main>
+        </section>
+    </body>
+</html>

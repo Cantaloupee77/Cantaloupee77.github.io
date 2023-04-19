@@ -64,6 +64,7 @@ textarea {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+
 #submit {
     border: 0;
     background-color: palevioletred;
@@ -77,4 +78,15 @@ textarea {
 fieldset {
     border: 2px solid pink;
     border-radius: 10px;
+}
+
+input:not(:focus):not(:placeholder-shown):invalid {
+    background-color: rgb(255, 84, 84);
+    border: 2px solid red;
+}
+
+
+textarea:not(:focus):not(:placeholder-shown):invalid {
+    background-color: rgb(255, 84, 84);
+    border: 2px solid red;
 }

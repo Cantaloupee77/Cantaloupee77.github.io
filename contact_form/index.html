@@ -18,7 +18,7 @@
                 </h5>
             </header>
             <main>
-                <form>
+                <form method="post" action="https://getform.io/f/a0c68bb7-bebc-4b8b-a0c3-c3fa73ec0d91">
                     <fieldset>
                         <div>
                             <label for="help_id">
@@ -26,7 +26,10 @@
                             </label>
                         </div>
                         <div>
-                            <select id="helping_id" name="helping">
+                            <select 
+                                required
+                                id="helping_id" 
+                                name="helping">
                                 <option value="none" disabled selected>Select what we can help you with</option>
                                 <option value="new_order">Placing New Order</option>
                                 <option value="cancel">Cancel My Order</option>
@@ -35,18 +38,34 @@
                         </div>
                         <div class="long">
                             <label for="person_name_id">Name</label>
-                            <input type="text" id="person_name_id" name="person_name">
+                            <input 
+                                required
+                                minlength="2"
+                                maxlength="25"
+                                placeholder="John_smith"
+                                type="text" 
+                                id="person_name_id" 
+                                name="person_name">
                         </div>
                         <div class="long">
                             <label for="email_id">Email</label>
-                            <input type="email" id="email_id" name="email">
+                            <input 
+                                required
+                                minlength="6"
+                                maxlength="30"
+                                placeholder="your-email@gmail.com"
+                                type="email" 
+                                id="email_id" 
+                                name="email">
                         </div>
                         <div>
                             <label for="message_id">Message</label>
-                            <textarea 
+                            <textarea
+                                required
+                                placeholder="your message goes here"
+                                minlength="10"
                                 id="class_features_id" 
-                                name="class_features">
-                            </textarea>
+                                name="class_features"></textarea>
                         </div>
                     </fieldset>
                     <div>

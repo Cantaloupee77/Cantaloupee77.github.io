@@ -20,6 +20,16 @@
     background-color: pink;
 }
 
+#first_name_id:invalid {
+    background-color: lightblue;
+    border-bottom: 4px solid blue;
+}
+
+#first_name_id:valid {
+    background-color: aquamarine;
+    border-bottom: 4px solid green ;
+}
+
 #last_name_id {
     border: 5px solid lightgreen;
     border-radius: 24px;

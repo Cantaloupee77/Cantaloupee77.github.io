@@ -18,15 +18,35 @@
 
                 <h2>Text Input</h2>
                 <h4>Each input should a unique 'name' attribute</h4>
+               
+                <fieldset>
+                    <p>* means Required</p>
+                </fieldset>
+                <br>
                 <p>What is your name?</p>
 
                 <div class="text-input">
-                    <label for="first_name_id">First Name:</label>
-                    <input type="text" id="first_name_id" name="first_name">
+                    <label for="first_name_id">First Name *:</label>
+                    <input 
+                        required
+                        minlength="2"
+                        maxlength="11"
+                        type="text" 
+                        id="first_name_id" 
+                        name="first_name">
                 </div>
                 <div class="text-input">
                     <label for="last_name_id">Last Name:</label>
                     <input type="text" id="last_name_id" name="last_name">
+                </div>
+                <div class="text-input">
+                    <label for="email_id">Email:</label>
+                    <input type="email" id="email_id" name="email">
+
+                </div>
+                <div class="text-input">
+                    <label for="password_id">Password:</label>
+                    <input type="password" id="password_id" name="password">
                 </div>
                 <h2>Textarea Input</h2>
                 <h4>Each textarea should also have a unique 'name' attribute</h4>

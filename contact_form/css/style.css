@@ -43,6 +43,7 @@ select {
     height: 40px;
     border: 2px solid pink;
     border-radius: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
@@ -51,6 +52,7 @@ textarea {
     height: 200px;
     border: 2px solid pink;
     border-radius: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #person_name_id,
@@ -59,6 +61,7 @@ textarea {
     height: 40px;
     border: 2px solid pink;
     border-radius: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #submit {

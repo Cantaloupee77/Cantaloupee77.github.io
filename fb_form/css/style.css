@@ -3,6 +3,10 @@
     margin: 0px auto;
 }
 
+fieldset {
+    box-sizing: border-box;
+}
+
 h4 {
     font-size: 12px;
 }
@@ -22,6 +26,10 @@ h3 {
 
 .full_name {
     display: flex;
+}
+
+.full_name input {
+    flex: 1;
 }
 
 .full_name {
@@ -55,14 +63,15 @@ h3 {
 }
 
 .gender_class {
-    border: 1px solid grey;
+    border: 1px solid lightgrey;
     margin: 10px;
     width: 100%;
     border-radius: 5px;
     color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
 }
-
-
 
 header {
     grid-area: header_area;
@@ -126,6 +135,7 @@ textarea {
 
 #password_id,
 #email_id {
+    box-sizing: border-box;
     width: 100%;
     height: 40px;
     border: 1px solid lightgrey ;

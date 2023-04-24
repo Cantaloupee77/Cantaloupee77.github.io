@@ -10,139 +10,139 @@
     <body>
         <section id="grid_container">
             <div id="layout_container">
-            <header>
-                <img src="images/fblogo.png">
-            </header>
-            <main>
-                <form method="post" action="https://getform.io/f/a0c68bb7-bebc-4b8b-a0c3-c3fa73ec0d91">
-                    <fieldset class="top_part">  
-                        <h2>
-                            Create a new account
-                        </h2>
-                        <h4>
-                            it's quick and easy.
-                        </h4>
-                    </fieldset>
-                    <fieldset class="info">
-                        <div>
-                            <div class="full_name">
-                                <div>
-                                    <label for="first_name_id"></label>
-                                    <input 
-                                        required
-                                        minlength="2"
-                                        maxlength="25"
-                                        placeholder="First name"
-                                        type="text" 
-                                        id="person_name_id" 
-                                        name="person_name">
+                <header>
+                    <img src="images/fblogo.png">
+                </header>
+                <main>
+                    <form method="post" action="https://getform.io/f/a0c68bb7-bebc-4b8b-a0c3-c3fa73ec0d91">
+                        <fieldset class="top_part">  
+                            <h2>
+                                Create a new account
+                            </h2>
+                            <h4>
+                                it's quick and easy.
+                            </h4>
+                        </fieldset>
+                        <fieldset class="info">
+                            <div>
+                                <div class="full_name">
+                                    <div>
+                                        <label for="first_name_id"></label>
+                                        <input 
+                                            required
+                                            minlength="2"
+                                            maxlength="25"
+                                            placeholder="First name"
+                                            type="text" 
+                                            id="person_name_id" 
+                                            name="person_name">
+                                    </div>
+                                    <div>
+                                        <label for="last_name_id"></label>
+                                        <input 
+                                            required
+                                            minlength="2"
+                                            maxlength="25"
+                                            placeholder="Last name"
+                                            type="text" 
+                                            id="person_name_id" 
+                                            name="person_name">
+                                    </div>
                                 </div>
+
                                 <div>
-                                    <label for="last_name_id"></label>
+                                    <label for="email_id"></label>
                                     <input 
                                         required
-                                        minlength="2"
-                                        maxlength="25"
-                                        placeholder="Last name"
-                                        type="text" 
-                                        id="person_name_id" 
-                                        name="person_name">
+                                        minlength="6"
+                                        maxlength="30"
+                                        placeholder="Email"
+                                        type="email" 
+                                        id="email_id" 
+                                        name="email">
+                                </div>
+
+                                <div class="password_class">
+                                    <label for="password_id"></label>
+                                    <input 
+                                        placeholder="New password"
+                                        required
+                                        maxlength="40"
+                                        minlength="8"
+                                        type="password" 
+                                        id="password_id" 
+                                        name="password">
+                                </div>
+
+                                <h4>Birthday?</h4>
+                                <div class="birthday">
+                                    
+                                    <select 
+                                        required
+                                        id="month_id" 
+                                        name="month">
+                                        <option value="july">Jul</option>
+                                        <option value="augest">Aug</option>
+                                        <option value="september">Sep</option>
+                                    </select>
+                                    <select 
+                                        required
+                                        id="day_of_year_id" 
+                                        name="day_of_year">
+                                        <option value="seven">7</option>
+                                        <option value="eight">8</option>
+                                        <option value="nine">9</option>
+                                    </select>
+                                    <select 
+                                        required
+                                        id="year_id" 
+                                        name="year">
+                                        <option value="new_order">2023</option>
+                                        <option value="cancel">2022</option>
+                                        <option value="never_arived">2021</option>
+                                    </select>
+                                </div>
+                            </div> 
+
+                            <h4>Gender?</h4>
+                            <div class="gender">
+                                
+                                <div class="gender_class">
+                                    <label for="female_radio">Female</label>
+                                    <input type="radio" id="female_radio" name="program" value="female">
+                                </div>
+                                <div class="gender_class">
+                                    <label for="male_radio">Male</label>
+                                    <input type="radio" id="male_radio" name="program" value="male ">
+                                </div>
+                                <div class="gender_class">
+                                    <label for="other_radio">Other</label>
+                                    <input type="radio" id="other_radio" name="program" value="other">
                                 </div>
                             </div>
 
                             <div>
-                                <label for="email_id"></label>
-                                <input 
-                                    required
-                                    minlength="6"
-                                    maxlength="30"
-                                    placeholder="Email"
-                                    type="email" 
-                                    id="email_id" 
-                                    name="email">
+                                    <h5>
+                                        People who use our service may have uploaded your contact information to Facebook. Learn more.
+                                    </h5>
+                                    <h5>
+                                        By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS Notifications from us and can opt out any time.
+                                    </h5>
                             </div>
 
-                            <div class="password_class">
-                                <label for="password_id"></label>
-                                <input 
-                                    placeholder="New password"
-                                    required
-                                    maxlength="40"
-                                    minlength="8"
-                                    type="password" 
-                                    id="password_id" 
-                                    name="password">
+                            <div>
+                                <input type="submit" id="submit" value="Sign Up">
                             </div>
 
-                            <h4>Birthday?</h4>
-                            <div class="birthday">
-                                
-                                <select 
-                                    required
-                                    id="month_id" 
-                                    name="month">
-                                    <option value="july">Jul</option>
-                                    <option value="augest">Aug</option>
-                                    <option value="september">Sep</option>
-                                </select>
-                                <select 
-                                    required
-                                    id="day_of_year_id" 
-                                    name="day_of_year">
-                                    <option value="seven">7</option>
-                                    <option value="eight">8</option>
-                                    <option value="nine">9</option>
-                                </select>
-                                <select 
-                                    required
-                                    id="year_id" 
-                                    name="year">
-                                    <option value="new_order">2023</option>
-                                    <option value="cancel">2022</option>
-                                    <option value="never_arived">2021</option>
-                                </select>
+                            <div>
+                                <h3>
+                                    Already have an account?
+                                </h3>
                             </div>
-                        </div> 
-
-                        <h4>Gender?</h4>
-                        <div class="gender">
-                            
-                            <div class="gender_class">
-                                <label for="female_radio">Female</label>
-                                <input type="radio" id="female_radio" name="program" value="female">
-                            </div>
-                            <div class="gender_class">
-                                <label for="male_radio">Male</label>
-                                <input type="radio" id="male_radio" name="program" value="male ">
-                            </div>
-                            <div class="gender_class">
-                                <label for="other_radio">Other</label>
-                                <input type="radio" id="other_radio" name="program" value="other">
-                            </div>
-                        </div>
-
-                        <div>
-                                <h5>
-                                    People who use our service may have uploaded your contact information to Facebook. Learn more.
-                                </h5>
-                                <h5>
-                                    By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS Notifications from us and can opt out any time.
-                                </h5>
-                        </div>
-
-                        <div>
-                            <input type="submit" id="submit" value="Sign Up">
-                        </div>
-
-                        <div>
-                            <h2>
-
-                            </h2>
-                        </div>
-                    </fieldset>
-                </form>
-            </main>
-        </div>
+                        </fieldset>
+                    </form>
+                </main>
+            </div>
         </section>
     </body>
 </html>

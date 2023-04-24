@@ -1,18 +1,23 @@
-#grid_container {
-    display: grid;
-    grid-template-columns: 1fr 600px 1fr;
-    grid-template-areas: 
-        ". header_area ."
-        ". main_area ."
-}
-
 #layout_container {
     width: 500px;
     margin: 0px auto;
 }
 
+h4 {
+    font-size: 12px;
+}
+
 img {
     width: 300px;
+}
+
+h2 {
+    color: black;
+}
+
+h3 {
+    color: rgb(122, 150, 243);
+    text-align: center;
 }
 
 .full_name {
@@ -31,13 +36,33 @@ img {
   display: flex;
 }
 
+#month_id {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+#day_of_year_id {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+#year_id {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
 .gender_class {
     border: 1px solid grey;
     margin: 10px;
     width: 100%;
     border-radius: 5px;
-    
+    color: black;
 }
+
+
 
 header {
     grid-area: header_area;
@@ -54,7 +79,6 @@ body {
 }
 
 form {
-    width: 100%;
     min-height: 400px;
     background-color: white;
     padding: 36px;

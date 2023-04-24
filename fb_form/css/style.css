@@ -122,15 +122,6 @@ textarea {
     border-radius: 0px 0px 10px 10px;
 }
 
-input:not(:focus):not(:placeholder-shown):invalid {
-    border: 2px solid red;
-}
-
-
-textarea:not(:focus):not(:placeholder-shown):invalid {
-    background-color: rgb(255, 84, 84);
-    border: 2px solid red;
-}
 
 #submit {
     border: 0;
@@ -140,4 +131,20 @@ textarea:not(:focus):not(:placeholder-shown):invalid {
     padding:10px 15px ;
     border-radius: 10px;
     font-family: sans-serif;
+}
+
+#submit {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input:not(:focus):not(:placeholder-shown):invalid {
+    border: 2px solid red;
+}
+
+
+textarea:not(:focus):not(:placeholder-shown):invalid {
+    border: 2px solid red;
 }

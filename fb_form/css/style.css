@@ -1,0 +1,132 @@
+#grid_container {
+    display: grid;
+    grid-template-columns: 1fr 600px 1fr;
+    grid-template-areas: 
+        ". header_area ."
+        ". main_area ."
+}
+
+img {
+    width: 300px;
+}
+
+.full_name {
+    display: flex;
+}
+
+.birthday {
+    display: flex;
+}
+
+.gender {
+  display: flex;
+}
+
+.gender_class {
+    border: 1px solid grey;
+    margin: 10px;
+    width: 100%;
+    border-radius: 5px;
+    
+}
+
+header {
+    grid-area: header_area;
+}
+
+main {
+    grid-area: main_area;
+}
+
+body {
+    background-color: #fafafa;
+    font-family: sans-serif;
+    color: gray;
+}
+
+form {
+    background-color: white;
+    padding: 36px;
+    border-radius: 10px;
+}
+
+header {
+    text-align: center;
+}
+
+div label {
+    display: block;
+}
+
+div {
+    margin: 5px 0px;
+}
+
+select {
+    width: 100%;
+    height: 40px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-family: sans-serif;
+    margin: 0px 5px;
+}
+
+
+textarea {
+    width: 100%;
+    height: 200px;
+    border: 2px solid pink;
+    border-radius: 10px;
+    font-family: sans-serif;
+}
+
+#person_name_id {
+    height: 40px;
+    border: 1px solid lightgrey ;
+    border-radius: 5px;
+    font-family: sans-serif;
+    margin: 0px 5px ;
+}
+
+
+#password_id,
+#email_id {
+    width: 100%;
+    height: 40px;
+    border: 1px solid lightgrey ;
+    border-radius: 5px;
+    font-family: sans-serif;
+    margin: 0px 5px ;
+}
+
+
+.top_part {
+    border: 1px solid lightgray;
+    border-radius: 10px 10px 0px 0px;
+    text-align: center;
+}
+
+.info {
+    border: 1px solid lightgray;
+    border-radius: 0px 0px 10px 10px;
+}
+
+input:not(:focus):not(:placeholder-shown):invalid {
+    border: 2px solid red;
+}
+
+
+textarea:not(:focus):not(:placeholder-shown):invalid {
+    background-color: rgb(255, 84, 84);
+    border: 2px solid red;
+}
+
+#submit {
+    border: 0;
+    background-color: #00a400;
+    color: white;
+    font-size: 18px;
+    padding:10px 15px ;
+    border-radius: 10px;
+    font-family: sans-serif;
+}

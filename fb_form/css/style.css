@@ -128,13 +128,14 @@ textarea {
     background-color: #00a400;
     color: white;
     font-size: 18px;
-    padding:10px 15px ;
+    font-weight: 600;
+    padding:10px 70px ;
     border-radius: 10px;
     font-family: sans-serif;
 }
 
 #submit {
-    margin-top: 20px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;

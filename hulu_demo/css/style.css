@@ -189,7 +189,9 @@ footer img {
 }
 
 #bobs_burger {
-    background-image: url(../images/bobsburgers.jpeg);
+    background-image: 
+        linear-gradient(to bottom, #000000DD, #00000000, 10%) 
+        url(../images/bobsburgers.jpeg);
     background-size: contain;
 }
 

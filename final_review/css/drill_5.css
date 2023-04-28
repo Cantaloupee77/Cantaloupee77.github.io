@@ -1,11 +1,19 @@
 /* Task 21 - Write your code solution below */
-
+#t21_container {
+    display: flex;
+}
 
 /* Task 22 - Write your code solution below */
-
+#t22_container {
+    display: flex;
+}
 
 /* Task 23 - Write your code solution below */
 
+#t23_container {
+    display: flex;
+    flex-direction: column;
+}
 
 /* Task 24 - Write your code solution below */
 

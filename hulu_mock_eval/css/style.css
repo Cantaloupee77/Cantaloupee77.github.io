@@ -1,211 +1,247 @@
 body {
     margin: 0;
     background-color: black;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif,
+}
+
+#hero {
+    background-image: url(../images/hulu-bg.jpeg);
+    background-size: cover;
 }
 
 nav {
+    padding: 24px 36px;
+    background: linear-gradient(to bottom, #000000DD, #00000000);
+}
+
+nav ul{
     display: flex;
     justify-content: space-between;
-}
-
-
-#nav-links li {
-    padding: 0 4px;
-}
-
-nav {
-    color: lightgray;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 nav img {
-    height: 20px;
-    padding: 20px;
+    width: 60px;
 }
 
-nav ul,
-nav h2 {
-    flex: 1;
-    margin: 0;
-    padding: 0;
+nav a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+    transition: background-color 0.5s;
+}
+
+nav a:hover {
+    background-color: rgb(93, 92, 92,);
+}
+
+#hero_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h5 {
+    color: #1CE783;
+    font-size: 22px;
 }
 
 /****************************************************************************
   Hero styles
 ****************************************************************************/
 
-#hero {
-    height: 800px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center; 
-    background-image: url("../images/hulu-bg.jpeg");
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    margin: 0;
-}
 
-
-#hero h2 {
-    color: white;
-    display: flex;
-    justify-content: center;
-}
-
-#hero ul li {
-    margin: 20px;
-    display: flex;
-    justify-content: center;
-}
-
-
-#regular a {
-    color: white;
-    display: flex;
-    justify-content: center;
-}
-
-#button {
+.button {
+        display: inline-block;
         background-color: #1CE783;
         color: black;
-        border-radius: 5px;
-        display: inline-block;
-        padding: 15px 250px;
-        margin-top: 12px;
-        min-width: 150px;
+        text-decoration: none;
+        font-weight: bolder;
         font-size: 13px;
-        font-weight: 600;
-        justify-content: center;
+        padding: 15px;
+        border-radius: 5px;
+        width: 670px;
+        margin-top: 12px;
+        text-align: center;
+        transition: opacity 0.5s;
 }
 
-#button {
-    list-style-type: none;
+.button:hover {
+    opacity: 0.5;
 }
 
+.term_link, 
+.sign_up_link {
+    color: white;
+    display: inline-block;
+}
+
+.term_link {
+    font-size: 14px;
+    margin-top: 16px;
+}
+
+.sign_up_link {
+    margin-top: 28px;
+}
 
 footer {
-    background-color: black;
-    opacity: 50%;
-    margin: 0;
-}
-
-footer h2 {
-    font-weight: 200;
-    padding: 10px;
-}
-
-footer h4 {
-    color: #1CE783;
-    font-size: 12px;
-    padding-top: 30px;
-    font-weight: 500;
-}
-
-.footer-under {
     display: flex;
+    align-items: center;
+    padding: 12px 36px;
+    margin-top: 60px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#footer_center {
+    margin: 0px 24px;
+    flex: 1;
+}
+
+footer #footer_container {
+    width: 250px;
 }
 
 footer img {
-    height: 60px;
+    width: 100%;
 }
 
+.other_button_link {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border: 2px solid white;
+    padding: 12px 24px;
+    border-radius: 4px;
+    transition: 
+        background-color 0.5s,
+        color 0.5s;
+}
+
+.other_button_link:hover {
+    background-color: white;
+    color: black;
+}
+
+.term_link {
+    display: block;
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 4px;
+}
+
+#footer_center p{
+    color: white;
+    font-size: 22px;
+}
 
 /****************************************************************************
   Card styles
 ****************************************************************************/
 
-#heading-for-card {
-    color: #1CE783;
-    display: flex;
-    justify-content: center;
-}
-
-
-#heading-for-card2 {
-    color: white;
-    font-size: 30px;
-    display: flex;
-    justify-content: center;
-}
-
-#heading-for-card3 {
-    color: white;
-    font-size: 30px;
-    display: flex;
-    justify-content: center;
+#four_cards {
     text-align: center;
-    font-size: 25px;
+    margin-top: 90px;
 }
 
-#four-cards {
-    display: flex;
-}
-
-.card {
+#four_cards h2,
+#four_cards p, 
+#four_cards h6,
+#four_cards h4 {
     color: white;
+}
+
+#four_cards h2 {
+    font-size: 48px;
+    margin-top: 0px auto;
+}
+
+#four_cards p {
+    width: 700;
+    margin: 0pc auto;
+}
+
+#deck_container {
+    display: grid;
+    grid-template-columns: repeat(4, 295px);
+    grid-auto-rows: 450px;
+    grid-gap: 24px;
+    width: 1252px;
+    margin: 60px auto;
     text-align: left;
-    display: flex;
-    flex-direction: row;
-    margin: 5px;
 }
 
-#card-1 {
-    background-image: url("../images/bobsburgers.jpeg");
-    width: 25%;
-    height: 500px;
+#deck_container div {
+    padding-left: 24px;
 }
 
-
-#card-2 {
-    background-image: url("../images/prey.jpeg");
-    width: 25%;
-    height: 500px;
+#deck_container h6 {
+    font-weight: normal;
+    margin-bottom: 12px;
 }
 
-
-#card-3 {
-    background-image: url("../images/handmaidstale.jpeg");
-    width: 25%;
-    height: 500px;
+#deck_container h4 {
+    font-size: 22px;
+    margin-top: 0px;
 }
 
+#bunger {
+    background: 
+        linear-gradient(to bottom, #000000DD, #00000000 40%), 
+        url(../images/bobsburgers.jpeg);
+    background-size: contain;
+}
+    
+#prey {
+    background-image: url(../images/prey.jpeg);
+    background-size: contain;
+}
 
-#card-4 {
-    background-image: url("../images/houseofdragon.jpeg");
-    width: 25%;
-    height: 500px;
+#handmaid {
+    background-image: url(../images/handmaidstale.jpeg);
+    background-size: contain;
+}
+
+#dragon {
+    background-image: url(../images/houseofdragon.jpeg);
+    background-size: contain;
 }
 
 /****************************************************************************
   Media Query - Mobile Breakpoint
 ****************************************************************************/
 
-@media screen and (max-width: 800px) {
-    #site_grid {
-        grid-template-columns: 1fr;
-        grid-template-areas: 
-            "nav_area"
-            "hero_area"
-            "footer_area"
-            "four_cards_area";
+@media screen and (max-width: 768px) {
+    .button {
+        width: 80%;
     }
-
-    nav {
+    footer {
         flex-direction: column;
+        text-align: center;
+        padding-bottom: 36px;
     }
-
-    nav img {
-        width: 20%;
-    }
-
     #four_cards {
-        flex-direction: column;
+        padding: 0px 24px;
     }
-
-    .card {
-        align-items: center;
-        margin: 36px 24px 0px;
+    #four_cards p {
+        width: 100%;
+    }
+    #deck_container {
+        grid-template-columns: 1fr 1fr;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    #deck_container div {
+        background-repeat: no-repeat;
+    }
+    #deck_container h4 {
+        font-weight: normal;
     }
 }

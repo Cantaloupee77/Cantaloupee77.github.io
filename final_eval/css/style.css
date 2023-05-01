@@ -23,6 +23,7 @@ nav ul {
     padding: 0;
 }
 
+
 nav img {
     width: 60px;
 }
@@ -128,6 +129,7 @@ nav a {
     display: flex;
     justify-content: space-evenly;
     font-size: 10px;
+    text-align: center;
 }
 
 #footer_links a, #footer_links2 a {
@@ -141,12 +143,12 @@ footer img {
 }
 
 #email_id {
-    background-color: grey;
+    background-color: lightgray;
     padding: 8px;
     border-radius: 2px;
     opacity: 0.5;
+    margin: 0;
 }
-
 
 #submit {
     background-color: #0063e5;
@@ -154,4 +156,19 @@ footer img {
     padding: 10px;
     color: white;
     border: #0063e5;
+    margin: 0%;
+}
+
+@media screen and (max-width: 480px) {
+
+    #gallery_container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    #gallery_container img {
+        width: 80%;
+        margin: 5px;
+        border-radius: 4px;
+    }
 }

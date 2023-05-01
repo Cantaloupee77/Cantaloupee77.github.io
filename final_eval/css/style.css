@@ -124,6 +124,18 @@ nav a {
     font-size: 10px;
 }
 
+#footer_links, #footer_links2 {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 10px;
+}
+
+#footer_links a, #footer_links2 a {
+    text-decoration: none;
+    color: gray;
+    padding: 10px;
+}
+
 footer img {
     width: 60px;
 }
